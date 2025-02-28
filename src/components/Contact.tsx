@@ -9,7 +9,7 @@ export function Contact() {
     name: '',
     email: '',
     message: ''
-  });
+  }); 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
