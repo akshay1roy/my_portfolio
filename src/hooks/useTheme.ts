@@ -10,6 +10,7 @@ export function useTheme() {
     }
     return 'light';
   });
+  
 
   useEffect(() => {
     const root = window.document.documentElement;
